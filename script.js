@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (Math.random() < 0.5) {
                     resolve(randomNumber);
                 } else {
-                    reject(new Error(`Promise 1 rejected with error`));
+                    reject(new Error(``));
                 }
             }, 1000); // Simulating an asynchronous operation with a delay of 1 second
         });

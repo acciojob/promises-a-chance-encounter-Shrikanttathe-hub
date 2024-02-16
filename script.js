@@ -1,5 +1,4 @@
 //your JS code here. If required.
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", () => {
     const outputDiv = document.getElementById('output');
 
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (Math.random() < 0.5) {
                     resolve(randomNumber);
                 } else {
-                    reject(new Error(`Promise rejected with error`));
+                    reject(new Error(`Promise 1 rejected with error`));
                 }
             }, 1000); // Simulating an asynchronous operation with a delay of 1 second
         });
